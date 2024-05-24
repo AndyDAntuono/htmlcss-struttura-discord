@@ -70,7 +70,7 @@ header {
 	display: inline-block;
 }
 
-/*MAIN*/
+/*MAIN ROWS*/
 
 .m-row-alpha {
 	display: flex;
@@ -81,8 +81,83 @@ header {
 	background-color: blue;
 }
 
+.m-row-beta-one{
+	height: 700px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.m-row-beta-two {
+	height: 700px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row-reverse;
+	background-color: lightslategray;
+}
+
+.m-row-gamma {
+	background-color: lightslategray;
+	height: 1000px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: nowrap;
+}
+
+.m-row-delta {
+	height: 700px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: black;
+}
+
+/*BOXS*/
+
 .fuxia-box {
 	height: 300px;
 	width: 1080px;
 	background-color: fuchsia;
+	border: 1px dashed black;
+}
+
+.blue-box {
+	height: 500px;
+	width: 800px;
+	background-color: aqua;
+	border: 1px dashed black;
+}
+
+.pink-box {
+	height: 500px;
+	width: 400px;
+	background-color: pink;
+	border: 1px dashed black;
+}
+
+.green-box {
+	height: 800px;
+	width: 1200px;
+	background-color: green;
+	border: 1px dashed black;
+}
+
+.pink_salmon-box {
+	height: 500px;
+	width: 480px;
+	background-color: salmon;
+	border: 1px dashed rgb(1, 21, 44);
+}
+
+.aqua_green-box {
+	height: 500px;
+	width: 240px;
+	background-color: aquamarine;
+	border: 1px dashed white;
 }

@@ -11,17 +11,11 @@ body {
 /*HEADER*/
 
 header {
-	background-color: rgba(173,216,230,255);
-}
-
-
-.h-container {
-	max-width: 1200px;
 	height: 50px;
 	background-color: rgba(173,216,230,255);
-	margin: 0 auto;
 	display: flex;
 	align-items: center;
+	justify-content: center;
 }
 
 .h-row {
@@ -74,7 +68,7 @@ header {
 	align-items: center;
 	height: 500px;
 	width: 100%;
-	background-color: rgba(173,216,230,255);
+	background-color: rgba(0,0,139,255);
 }
 
 .m-row-beta-one{
@@ -145,14 +139,14 @@ header {
 
 .pink_salmon-box {
 	height: 500px;
-	width: 480px;
+	width: 400px;
 	background-color: rgba(240,128,128,255);
 	border: 1px dashed rgb(1, 21, 44);
 }
 
 .aqua_green-box {
 	height: 500px;
-	width: 240px;
+	width: 200px;
 	background-color: rgba(32,178,170,255);
 	border: 1px dashed white;
 }
